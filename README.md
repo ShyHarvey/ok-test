@@ -1,35 +1,13 @@
 # ok-test
 
-This template should help get you started developing with Vue 3 in Vite.
+тестовое задание 
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Разработать компоненты (vue+vuex)  для работы с репозиториями Github-graphQL API (v4). 
+Реализовать: 
+Отображение списка  репозиториев для логина octocat в виде дропбокса с возможностью фильтрации по имени. (имя репозитория с логином)
+При выборе из списка репозиториев отображаются карточки с issues (название, статус, описание)
+По клику на issue отображается список комментариев (время создания, текст)
+Визуальное представление свободное.
+Дополнительная информация: 
+https://developer.github.com/v4/guides/forming-calls/#example-query
+https://developer.github.com/v4/explorer/
